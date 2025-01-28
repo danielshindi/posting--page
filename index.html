@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PosteAqui - Blog</title>
+</head>
+<body>
+    <header>
+        <h1>PosteAqui - Blog</h1>
+    </header>
+
+    <main>
+        <section id="post-form">
+            <form id="form" action="" method="post">
+                <h2>Faça sua postagem</h2>
+                <div class="form-field">
+                    <label for="titulo">Título: </label>
+                    <input type="text" required autofocus id="titulo">
+                </div>
+                <div class="form-field">
+                    <label for="conteudo">Conteúdo: </label>
+                    <textarea id="conteudo" required cols="40" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="post-view">
+            <h2 id="renderizador-titulo"></h2>
+            <p id="renderizador-conteudo"></p>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
